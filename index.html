@@ -439,9 +439,10 @@
           </ul>
         </div>
         <div>
-          <form>
-            <label class="footer-label" for="email-footer">Subscribe</label>
-            <div class="footer-form">
+          <div class="footer-info">
+            <p class="footer-form-text">Subscribe</p>
+            <form class="footer-form">
+              <label for="email-footer" class="fotter-label"></label>
               <input
                 class="footer-input"
                 type="email"
@@ -457,8 +458,8 @@
                   </svg>
                 </span>
               </button>
-            </div>
-          </form>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
@@ -481,7 +482,7 @@
                 name="user-name"
                 required
               />
-              <svg class="icon-modal" height="18" width="18">
+              <svg class="icon-modal" height="24" width="18">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -529,18 +530,18 @@
             <input
               class="checkbox-policy visually-hidden"
               type="checkbox"
-              name="policy"
-              id="policy"
+              name="user-privacy"
+              id="user-privacy"
               value="true"
             />
-            <label for="policy" class="text-policy">
-              <span>
+            <label for="user-privacy" class="text-policy">
+              <span class="priv">
                 <svg class="check-icon" width="8" height="8">
                   <use href="./images/icons.svg#icon-check"></use>
                 </svg>
               </span>
               I accept the terms and conditions of the
-              <a href=""> Privacy Policy</a>
+              <a class="link-priv" href=""> Privacy Policy</a>
             </label>
           </div>
           <button class="modal-send" type="submit">Send</button>
