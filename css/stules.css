@@ -736,11 +736,11 @@ img {
 }
 
 .priv {
+  display: inline-flex;
   height: 16px;
   width: 16px;
   margin-right: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   border-radius: 2px;
