@@ -667,7 +667,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
   background-color: transparent;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
   height: 40px;
   padding-left: 38px;
   border-radius: 4px;
@@ -724,18 +724,19 @@ img {
   align-items: center;
 }
 
-.checkbox-policy:checked + .priv {
+.checkbox-policy:checked + .check-span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
 }
+
 .link-priv {
   color: #4d5ae5;
   text-decoration-line: underline;
   margin-left: 4px;
 }
 
-.priv {
+.check-span {
   display: inline-flex;
   height: 16px;
   width: 16px;
