@@ -385,8 +385,7 @@ img {
 }
 
 .child {
-  width: 208px;
-  margin-right: 80px;
+  margin-right: auto;
 }
 .text-footer {
   line-height: 1.5;
@@ -660,7 +659,7 @@ img {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   outline: transparent;
   background-color: transparent;
-
+  font-size: 12px;
   height: 40px;
   padding-left: 38px;
   border-radius: 4px;
@@ -713,6 +712,9 @@ img {
   fill: #f4f4fd;
 }
 
+.check-input:focus + .check-label .check-span {
+  border-color: #4d5ae5;
+}
 .check-label {
   font-size: 12px;
   line-height: 1.17;
